@@ -1,16 +1,67 @@
-# ui22
+# story-teller - AI 智能童话故事生成器 🤖📚
 
-A new Flutter project.
+这是一个基于 **Flutter** 开发 跨平台移动应用程序。本项目专为儿童设计，通过接入阿里云 **通义千问 (Qwen) API**，实现一键生成趣味童话故事。不仅如此，应用还支持根据故事内容生成匹配的精美图片与视频，并配备了互动的趣味问答环节，激发孩子们的想象力与理解力。
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ 核心特性
 
-A few resources to get you started if this is your first Flutter project:
+* **🪄 智能故事生成**：集成 Qwen 大模型 API，根据关键词或主题快速定制生动有趣的儿童故事。
+* **🎨 故事多媒体化**：利用故事文本自动衍生生成匹配的插图与短视频，打造沉浸式视听体验。
+* **🧩 扫码互动问答**：每个故事都配套专属问答环节。小朋友或家长可以通过**扫描二维码**轻松进入互动答题页面，加深对故事寓意的理解。
+* **📱 跨平台体验**：基于 Flutter 构建，拥有流畅的 UI 交互与出色的跨平台性能。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ 技术栈
+
+* **前端框架**：Flutter (Dart)
+* **大模型 API**：阿里云通义千问 (Qwen API)
+* **多媒体生成**：AI 图像/视频生成技术支持
+* **其他技术**：QR 码生成与解析、本地状态管理
+
+---
+
+## 🚀 快速开始
+
+### 前提条件
+
+* 已配置好 [Flutter SDK](https://docs.flutter.dev/get-started/install) 环境。
+* 拥有一个通义千问的 API Key。
+
+### 运行步骤
+
+1.  **克隆仓库**
+    ```bash
+    git clone [https://github.com/你的用户名/ui22.git](https://github.com/你的用户名/ui22.git)
+    cd ui22
+    ```
+
+2.  **安装依赖**
+    ```bash
+    flutter pub get
+    ```
+
+3.  **配置 API Key**
+    在项目的配置文件（或环境变量）中填入您的 Qwen API Key。
+
+4.  **运行项目**
+    ```bash
+    flutter run
+    ```
+
+---
+
+## 📸 应用截图与演示
+
+*(提示：你可以在此处上传应用的实际截图或 GIF 动图，存放在 `assets/` 目录下并在此处引用)*
+
+| 故事生成界面 | 视频播放与扫码问答 |
+| :---: | :---: |
+| `![🔍 请替换为故事生成界面截图](assets/screenshot1.png)` | `![🔍 请替换为问答界面截图](assets/screenshot2.png)` |
+
+---
+
+## 🤝 贡献与反馈
+
+欢迎提交 Issue 或 Pull Request 来一起完善这个有趣的教育项目！
